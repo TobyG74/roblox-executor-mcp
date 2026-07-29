@@ -42,7 +42,7 @@ Use it to see connected Roblox clients, inspect scripts, run tools, view server 
 ### 1. Clone the server
 
 ```bash
-git clone https://github.com/notpoiu/roblox-executor-mcp.git
+git clone https://github.com/dissering/roblox-executor-mcp.git
 cd roblox-executor-mcp
 ```
 

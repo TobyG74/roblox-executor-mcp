@@ -1,17 +1,30 @@
 # Build artifacts
-dist/*
+dist/
 
-# node modules
-node_modules/*
+# Dependencies
+node_modules/
+.pnpm-store/
 
-# pnpm store
-.pnpm-store/*
+# Lockfiles (bun is packageManager)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
 
-# Cursor
-.cursor/*
-
-# Cursor
-.cursor/*
-
-# macOS
+# Editors / OS
+.cursor/
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Env / local
+.env
+.env.*
+!.env.example
+*.log
+.cache/
+
+# Research notes (not shipped)
+research/
